@@ -1,0 +1,24 @@
+# Exclude SDK copy and zip archive
+"douyin_rv1126_ffmpeg_network_project 2/"
+douyin_rv1126_ffmpeg_network_project.zip
+
+# Compiled binary
+**/rv1126_ffmpeg_main
+
+# Vim swap files
+*.swp
+*.swo
+*~
+
+# ctags
+**/tags
+
+# Test files
+**/test.txt
+
+# Build artifacts
+*.o
+*.d
+
+# Claude config
+.claude/
